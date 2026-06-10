@@ -1,6 +1,6 @@
 # Payload Cloudflare Deployment
 
-CMS for Zurich Pride.
+CMS for [Zurich Pride](staging.zurichpride.ch).
 
 ## Working with Cloudflare
 
