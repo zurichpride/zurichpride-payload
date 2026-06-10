@@ -2,6 +2,9 @@ import type { CollectionConfig } from 'payload'
 
 export const Hotels: CollectionConfig = {
   slug: 'hotels',
+  access: {
+    read: () => true,
+  },
   fields: [
     {
       name: 'name',

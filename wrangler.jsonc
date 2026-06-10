@@ -3,6 +3,12 @@
   "main": ".open-next/worker.js",
   "name": "zurichpride-payload",
   "minify": true,
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true,
+    },
+  },
   "compatibility_date": "2025-08-15",
   "compatibility_flags": [
     // Enable Node.js API
